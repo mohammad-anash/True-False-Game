@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>True False Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="start-container">
+        <h1>True False Game</h1>
+        <button class="start">Start Game</button>
+      </div>
+      <div class="play-container">
+        <div class="five-rounds">
+          <div class="rounds"></div>
+          <div class="rounds"></div>
+          <div class="rounds"></div>
+          <div class="rounds"></div>
+          <div class="rounds"></div>
+        </div>
+        <div class="options">
+          <div class="left-option">left</div>
+          <div class="operator"></div>
+          <div class="rigth-option">rigth</div>
+        </div>
+        <div class="guess-option">
+          <div class="guess">
+            <form class="form">
+              <label class="gettrue">True</label>
+              <input type="radio" id="true" />
+              <label class="getfalse">False</label>
+              <input type="radio" id="False" />
+            </form>
+          </div>
+          <button class="runButton">Run</button>
+        </div>
+      </div>
+      <div class="score-container">
+        <h2>Your Score</h2>
+        <div class="score">
+          <div>correct: <span class="correct-answer"></span></div>
+          <div>wrong: <span class="wrong-answer"></span></div>
+        </div>
+      </div>
+      <p class="Suggestion"></p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
